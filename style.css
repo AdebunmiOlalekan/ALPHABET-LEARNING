@@ -6,7 +6,7 @@
 .mainContainer{
   height: 100vh;
   width: 100vw;
-  background-color: #264653;
+  background-color: black;
 }
 #imageBox {
   height: 300px;
@@ -77,19 +77,20 @@ img{
 .mainContainer{
   height: 100vh;
   width: 100vw;
-  background-color: #264653;
+  background-color: black;
 }
 #imageBox {
-height: 200px;
-width: 180px ;
+height: 250px;
+width: 200px ;
 position: absolute;
-left: 27%;
+left: 20%;
   
 }
 
 img{
-  height: 200px;
-  width: 180px ;
+  height: 250px;
+  width: 200px ;
+
 }
 
 #myDisplay {
@@ -97,13 +98,13 @@ img{
   text-align: center;
   height: 30px;
   width: 290px;
-  top: 41%;
+  top: 54%;
   left: 13%;
 }
 #previous {
   height: 20px;
   width: 80px;
-  top: 50%;
+  top: 62%;
   left: 28%;
   font-size: 15px;
 }
@@ -113,7 +114,7 @@ img{
  width: 60px;
  border-radius: 6px;
  position: absolute;
- top: 50%;
+ top: 62%;
  left: 60%;
 }
 }
