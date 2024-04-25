@@ -1,6 +1,9 @@
-var letters = [
+var letters = 
+[
     {letter:"A", word:"Apple", image:"images/apple.jpeg"}, 
+
     {letter:"B", word:"Bee", image:"images/Bee.jpeg"},
+
     {letter:"C", word:"Cup", image:"images/Cup.jpeg"},
     {letter:"D", word:"Dog", image:"images/dog.jpeg"},
     {letter:"E", word:"Egg", image:"images/egg.jpeg"},
@@ -35,6 +38,8 @@ function displayCurrentItem() {
     document.querySelector("img").setAttribute("src", currentItem.image);
 }
 
+
+
 displayCurrentItem(); 
 
 function handleNext() {
@@ -45,6 +50,8 @@ function handleNext() {
     }
     displayCurrentItem();
 }
+
+
 
 function handlePrevious() {
     if (currentIndex > 0) {
